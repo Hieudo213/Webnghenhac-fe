@@ -1,0 +1,142 @@
+#container{
+    width: 100% ;
+}
+
+/* Header */
+.genre-header{
+  width: 93.3%;  
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: -20px;
+}
+
+.genre-header_title{
+
+}
+
+.genre-header_title_text{
+
+}
+/* Body */
+.Body{
+
+}
+
+.big-content{
+  display: flex;
+  margin-left: 40px;
+ height: 371px;
+}
+
+.big-content-main{
+   width: 100%;
+   cursor: pointer;
+   
+}
+
+.big-content-title{
+  text-align: start;
+  font-size: 13.5px;
+  color: #807f7f;
+}
+
+.big-content-description{
+  text-align: start;
+  
+}
+
+.big-content-genre{
+  text-align: start;
+  padding-bottom: 5px;
+color: #807f7f;
+font-size: 15.5px;
+padding-top:3px;
+}
+
+.big-content-img{
+  border-bottom-left-radius:6px ;
+  border-bottom-right-radius:6px ;
+  border-top-left-radius: 6px;
+  border-top-right-radius:6px ;
+  width: 540px;
+  height: 82%;
+  background-color: rgb(87, 29, 29);
+}
+.browse-img-content{
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius:6px ;
+  border-bottom-right-radius:6px ;
+  border-top-left-radius: 6px;
+  border-top-right-radius:6px ;
+}
+ /* Small content */
+ .small-content{
+  border-top: 1px solid #d8d9d9;
+  margin-top: 25px;
+  width: 93.3%;  
+  margin-left: 40px;
+  text-align: left;
+  font-size: 9px;
+ }
+
+ .small-content-list{
+    display: flex;
+    margin-left: -24px; 
+    flex-wrap: wrap;  
+   
+ }
+
+.list_contents-main{
+  width: 214px;
+  height: 285px;
+  margin-left: 22px;
+  margin-top: 15px;
+  box-sizing: border-box;
+}
+
+.list_contents-img{
+  width: 100%;
+  height: 75%;
+  
+  border-top-left-radius:6px ;
+  border-top-right-radius:6px ;
+  border-bottom-left-radius:6px ;
+  border-bottom-right-radius:6px ;
+
+}
+
+.list_contents-img-name{
+  width: 100%;
+    height: 15%;
+    display: flex;
+    padding-left: 6px;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: -2px;
+
+
+}
+  .playlist-img-content{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius:6px ;
+  border-top-right-radius:6px ;
+  border-bottom-left-radius:6px ;
+  border-bottom-right-radius:6px ;
+ 
+  }
+
+ .list_contents-img-name-content{
+  font-size: 13px;
+  color: #333;
+  text-align: start;
+ }
+.list_contents-genre{
+  margin-top: -10px;
+  margin-left: 5px;
+  color: #0000008f;
+  font-size: 10.5px;
+}

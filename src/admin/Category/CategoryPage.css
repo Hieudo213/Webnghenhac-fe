@@ -1,0 +1,111 @@
+.category-page-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .category-page-main {
+    width: 100%;
+    height: 721px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .category-page-content {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 450px;
+    background-color: antiquewhite;
+  }
+  
+  .category-page-content-name {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .category-page-content-description {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .category-page-content-dob {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color: #fff;
+  }
+  
+  .category-page-content-pob {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color: #fff;
+  }
+  
+  .category-page-content-name-input {
+    border: none;
+    height: 90%;
+    width: 92.95%;
+    margin-left: 3px;
+  }
+  
+  .category-page-content-description-input {
+    border: none;
+    height: 90%;
+    width: 88.4%;
+    margin-left: 3px;
+  }
+  
+  .category-page-content-dob-input {
+    border: none;
+    height: 90%;
+    margin-left: 3px;
+    width: 87.12%;
+  }
+  
+  .category-page-content-pob-input {
+    border: none;
+    height: 90%;
+    margin-left: 3px;
+    width: 86.5%;
+  }
+  
+  .category-page-content-name-label {
+    margin-left: 5px;
+  }
+  
+  .category-page-content-description-label {
+    margin-left: 5px;
+  }
+  
+  .category-page-content-dob-label {
+    margin-left: 5px;
+  }
+  
+  .category-page-content-pob-label {
+    margin-left: 5px;
+  }
+  
+  .btn-agree {
+    margin-left: 5px;
+  }
+  

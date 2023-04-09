@@ -1,0 +1,65 @@
+.search-container{
+  width: 100%;
+}
+.search-main{
+  margin-top: 5px;
+  width: 90%;
+  height: 55px;
+  margin-left: 5%;
+  border-top: 1px solid #b8b6b6;
+  display: flex;
+}
+
+.single-picture{
+  width: 50px;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-picture-content{
+width: 45px;
+height: 45px;
+border-radius: 5px;
+
+}
+
+.single-infomation{
+margin-left: 2px;
+height: 100%;
+display: flex;
+justify-content: start;
+align-items: center;
+text-align: start;
+}
+
+.single-info{
+
+}
+
+.single-title{
+font-size: 13px;
+font-weight: 500;
+color: #333;
+}
+
+.single-album{
+font-size: 12px;
+font-weight: 400;
+color: #333;
+}
+
+
+.bad-result-search{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bad-result-search-message{
+  font-size: 20px;
+  font-weight: 500;
+}

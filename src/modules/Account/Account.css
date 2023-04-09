@@ -1,0 +1,175 @@
+#account-container {
+    width: 100%;
+    margin-top: 1%;
+}
+
+.account-title {
+    width: 93.3%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    border-bottom: 1px solid #d8d9d9;
+}
+
+.account-title-text {}
+
+.account-avatar {
+    width: 100%;
+    height: 250px;
+   
+}
+
+.account-avatar-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.account-avatar-main-content {
+    width: 180px;
+    height: 180px;
+    
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+
+
+.account-change {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-change-button {
+    display: block;
+}
+
+.account-avatar-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.account-main {
+    width: 100%;
+    height: 376px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.account-id {
+    width: 56%;
+    height: 50px;
+    background-color: #e7e9eb;
+    display: flex;
+    align-items: center;
+}
+
+.account-id-text{
+    text-align: start;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.account-email {
+    width: 56%;
+    height: 50px;
+    background-color: #e7e9eb;
+    display: flex;
+    align-items: center;
+}
+
+.account-email-text{
+    text-align: start;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.account-firstname {
+    width: 56%;
+    height: 50px;
+    background-color: #e7e9eb;
+    display: flex;
+    align-items: center;
+}
+
+.account-firstname-text{
+    text-align: start;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.account-lastname {
+    width: 56%;
+    height: 50px;
+    background-color: #e7e9eb;
+    display: flex;
+    align-items: center;
+}
+
+.account-lastname-text{
+    text-align: start;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.account-password {
+    color: coral;
+}
+
+.account-submit{
+   display: flex;
+   justify-content: center;
+   align-self: center;
+}
+
+.account-submit-button{
+    margin-right: 5px;
+}
+
+.account-firstname-input{
+    width: 56%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    
+}
+
+.account-lastname-input{
+    width: 56%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+} 
+.account-firstname-input-text{
+    width: 79.8%;
+    /*Ẩn boder trên, phải và trái*/
+    border-style:hidden ;
+   
+/*Thiết lập kiểu cho border dưới*/
+font-size: 15px;
+    padding: 15px;
+    
+}
+.account-firstname-input-label{
+    text-align: start;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}

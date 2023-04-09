@@ -1,0 +1,146 @@
+.song-page-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .song-page-main {
+    width: 100%;
+    height: 721px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .song-page-content {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 450px;
+    background-color: antiquewhite;
+  }
+  
+  .song-page-content-name {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .song-page-content-description {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .song-page-content-dob {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color: #fff;
+  }
+  
+  .song-page-content-pob {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+    background-color: #fff;
+  }
+  
+  .song-page-content-name-input {
+    border: none;
+    height: 90%;
+    width: 92.95%;
+    margin-left: 3px;
+  }
+  
+  .song-page-content-description-input {
+    border: none;
+    height: 90%;
+    width: 88.4%;
+    margin-left: 3px;
+  }
+  
+  .song-page-content-dob-input {
+    border: none;
+    height: 90%;
+    margin-left: 3px;
+    width: 87.12%;
+  }
+  
+  .song-page-content-pob-input {
+    border: none;
+    height: 90%;
+    margin-left: 3px;
+    width: 86.5%;
+  }
+  
+  .song-page-content-name-label {
+    margin-left: 5px;
+  }
+  
+  .song-page-content-description-label {
+    margin-left: 5px;
+  }
+  
+  .song-page-content-dob-label {
+    margin-left: 5px;
+  }
+  
+  .song-page-content-pob-label {
+    margin-left: 5px;
+  }
+  
+  .btn-agree {
+    margin-left: 5px;
+  }
+
+  .album-option{
+   
+  }
+
+  .album-select{
+    width: 100px;
+  }
+
+  .single-select{
+    width: 100px;
+  }
+
+  .music-select{
+    width: 100px;
+  }
+
+  .playlist-select{
+    width: 100px;
+  }
+
+  .label-info{
+    margin-right: 3px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .song-page-content-info{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .song-page-content-id{
+    margin-right: 20px;
+  }

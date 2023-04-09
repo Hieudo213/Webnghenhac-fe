@@ -1,0 +1,226 @@
+.container{
+    width: 100%;
+   
+  }
+  
+  /* album */
+  .album-detail{
+      margin-top: 35px;
+     width: 100%;
+     height: 50px;
+     display: flex;
+  }
+  
+  .album-img{
+    height: 250px;
+    width: 250px;
+    background-color: beige;
+    margin-left: 30px;
+    border-radius: 10px;
+  }
+  .album-img-content{
+    width: 100%;
+    border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+  .album-content{
+      height: 250px;
+      width: 45%;
+      margin: 0 33px;
+  }
+  .album-title{
+    text-align: start;
+  }
+  
+  .album-title-text{
+     
+  }
+  
+  .album-publish{
+    
+      text-align: start;
+  }
+  .album-publish-text{
+    margin-top: -16px;
+    font-weight: 300;
+    color: #d60017;
+  }
+  
+  .album-description{
+      text-align: start;
+  }
+  
+  .album-description-text{
+  
+  }
+  
+  .btn{
+    display: flex;
+    margin-top: 49px;
+  }
+  .btn-1{
+     width: 85px;
+     height: 25px;
+     background-color: #d60017;
+     margin-right: 10px;
+     cursor: pointer;
+     border-radius:5px ;
+  }
+  
+  .btn-2{
+    width: 85px;
+    height: 25px;
+    background-color: #d60017;
+    margin-right: 10px;
+    border-radius:5px ;
+    cursor: pointer;
+  }
+  
+  .btn-text{
+     text-align: center;
+     color: #fff;
+     padding-top: 3px;
+     font-size: 14px;
+     border-radius:3px ;
+  }
+  
+  /* Song  */
+  .song-detail{
+    width: 100%;
+    margin-top: 240px;
+  }
+  
+  .song-detail-container{
+   width: 100%;
+  
+  }
+  .song-detail-title{
+   display: flex;
+  
+  }
+  .title-text{
+    text-align: start;
+    color: #707070;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left:5px ;
+  }
+  
+  .song-detail-column-1{
+    margin-left: 25px;
+  }
+  
+  .song-detail-column-2{
+  margin-left: 355px;
+  border-left:1px solid #e5e5e5 ;
+  }
+  
+  .song-detail-column-3{
+    margin-left: 245px;
+    border-left:1px solid #e5e5e5 ;
+  }
+  
+  .song-detail-column-4{
+    margin-left: 285px;
+    border-left:1px solid #e5e5e5 ;
+  }
+  
+  .song-detail-content{
+    width: 100%;
+    
+  }
+  
+  .song-content-main {
+    width: 96%;
+    height: 45px;
+    background-color: #fbfbfb;
+    margin-left: 2%;
+    border-radius: 6px;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  .song-content-avatar {
+    width: 50px;
+    height: 100%;
+   
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .song-content-img {
+    width: 40px;
+    height: 86.5%;
+  
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    
+  }
+  
+  .song-content-title {
+    width: 29%;
+    height: 100%;
+   font-size: 13px;
+   font-weight: 400;
+    display: flex;
+    align-items: center;
+  }
+  
+  .song-content-title-text{
+    margin-left: 1%;
+  }
+  
+  .song-content-artist {
+    width: 24%;
+    height: 100%;
+    font-size: 13px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+  }
+  
+  .song-content-artist-text{
+    margin-left: 1%;
+  }
+  
+  .song-content-album {
+    width: 28%;
+    height: 100%;
+    font-size: 13px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .song-content-album-text{
+    margin-left: 1%;
+  }
+  
+  .song-content-length {
+    width: 15%;
+    height: 100%;
+    font-size: 13px;
+   font-weight: 300;
+    display: flex;
+    align-items: center;
+  }
+  
+  .song-content-length-text{
+    margin-left: 1%;
+  }
+  .play-icon{
+    position: absolute;
+   color: cadetblue;
+   left: 17%;
+   margin-top: 10px;
+  }
+  

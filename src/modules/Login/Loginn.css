@@ -1,0 +1,88 @@
+#loginn-container{
+ width: 100%;
+ height: 764px;
+ background-color: #f0f1f1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.loginn-form{
+  width: 35%;
+  height: 317px;
+  background-color: #faf4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 2px #333;
+  border-top: 5px solid #0b57c1;
+}
+
+.form{
+width: 87%;
+}
+
+.form-title{
+  margin-top: 10%;
+  font-size: 1.25rem;
+  color: #0b57c1;
+}
+
+.form-username{
+  width: 100%;
+  margin-top: 3%;
+  height: 38px;
+}
+
+.form-password{
+margin-top: 3%;
+width: 100%;
+height: 38px;
+}
+
+.register-link{
+display: flex;
+justify-content: space-between;
+font-size: 0.75rem;
+margin-top: 4%;
+}
+
+.register-link-main{
+  color: #333;
+}
+
+.form-button{
+margin-top: 12%;
+width: 100%;
+height: 41px;
+}
+
+.loginn-button{
+  background-color: #0957c1;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 545;
+  font-size: 16px;
+border: 2px solid #0957c1;
+cursor: pointer;
+}
+
+.email-input-text{
+width: 100%;
+height: 100%;
+border: 2px solid #dcd6d6;
+border-radius: 6px;
+}
+
+.password-input-text{
+  width: 100%;
+  height: 100%;
+  border: 2px solid #dcd6d6;
+  border-radius: 6px ;
+}
+
+.loginError{
+  color: red;
+}
