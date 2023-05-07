@@ -30,7 +30,7 @@ function Single() {
         <div className='header'>
                 <div className='header_title'>
                     <h1 className='header_title_text'>
-                        Singles
+                      In Progress Singles 
                     </h1>
                 </div>
 
@@ -63,7 +63,7 @@ function Single() {
             <div className='header'>
                 <div className='header_title'>
                     <h1 className='header_title_text'>
-                        Singles
+                        Singles are not activated
                     </h1>
                 </div>
 

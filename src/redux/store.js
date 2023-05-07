@@ -23,6 +23,8 @@ import ActivateSingleReducer from "./activate/ActivateSingleSlice";
 import ActivateSongReducer from "./activate/ActivateSongSlice";
 import UpdateCategoryReducer from "./updateComponent/UpdateCategorySlice";
 import ArtistAReducer from "./updateArtistFor/ArtistASlice";
+import UpdateRoleReducer from "./user/UpdateRoleSlice";
+import DeleteUserReducer from "./user/DeleteUserSlice";
 import {
   persistStore,
   persistReducer,
@@ -74,6 +76,8 @@ const rootReducer = combineReducers ({
     activateSong : ActivateSongReducer,
     updateCategory : UpdateCategoryReducer,
     updateSongArtist : ArtistAReducer, 
+    upadateRole : UpdateRoleReducer,
+    deleteUser : DeleteUserReducer,
 }) ;
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 

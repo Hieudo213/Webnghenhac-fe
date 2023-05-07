@@ -30,7 +30,7 @@ function Playlist() {
         <div className='header'>
                 <div className='header_title'>
                     <h1 className='header_title_text'>
-                      In process Playlist
+                    In Progress Playlists 
                     </h1>
                 </div>
 
@@ -63,7 +63,7 @@ function Playlist() {
             <div className='header'>
                 <div className='header_title'>
                     <h1 className='header_title_text'>
-                       Playlist in process
+                       Playlists are not activated
                     </h1>
                 </div>
 
@@ -79,7 +79,7 @@ function Playlist() {
                         className="album-img-content-admin"
                         src={
                           "http://localhost:8080/api/v1/public/pictures/file/" +
-                         playlist.picture.id
+                         playlist.picture?.id
                         }
                       />
                     </div>

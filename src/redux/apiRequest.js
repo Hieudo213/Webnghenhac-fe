@@ -146,6 +146,18 @@ updateArtistForSongFailed,
 updateArtistForSongStart,
 updateArtistForSongSuccess
 } from "./updateArtistFor/ArtistASlice"
+
+import{
+  updateRoleFailed,
+  updateRoleStart,
+  updateRoleSuccess
+} from "./user/UpdateRoleSlice"
+
+import{
+  deleteUserFailed,
+  deleteUserStart,
+  deleteUserSuccess
+} from "./user/DeleteUserSlice"
 export const loginUser = async (user, dispatch, navigate) => {
   dispatch(loginStart());
   try {
@@ -540,4 +552,32 @@ export const updateArtistForSongById = async (Song, dispatch, navigate,id) => {
     dispatch(updateArtistForSongFailed());
   }
 };
+
+export const deletedUserById = async(dispatch,navigate,id) =>{
+  dispatch(deleteUserStart());
+  try{  
+    const res = await axios.delete(
+      `http://localhost:8080/api/v1/public/users/delete/${id}`
+    );
+    dispatch(deleteUserSuccess(res.data))
+    navigate("/admin/user-list");
+  }catch(err){
+    dispatch(deleteUserFailed());
+  }
+}
+
+export const updateRoleById = async(role,dispatch,navigate,id) =>{
+  dispatch(updateRoleStart());
+  try{  
+    const res = await axios.put(
+      `http://localhost:8080/api/v1/public/users/admin/update/role/${id}?Role=${role}`
+    );
+    dispatch(updateRoleSuccess(res.data))
+    navigate("/admin/user-list");
+  }catch(err){
+    dispatch(updateRoleFailed());
+  }
+}
+
+
 

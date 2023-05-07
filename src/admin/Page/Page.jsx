@@ -6,6 +6,9 @@ function Page() {
   return (
     <div id="page-container">
       <div className="page-main">
+      <Link to={"/admin/category"} className="page-content">
+          <div className="page-text">Create Category</div>
+        </Link>
         <Link to={"/admin/artist"} className="page-content">
           <div className="page-text">Create Artist</div>
         </Link>
@@ -37,6 +40,9 @@ function Page() {
         </Link>
         <Link to={"/admin/update/playlist"} className="page-content">
           <div className="page-text">Update Playlist</div>
+        </Link>
+        <Link to={"/admin/user-list"} className="page-content">
+          <div className="page-text">List User</div>
         </Link>
       </div>
     </div>

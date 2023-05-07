@@ -7,7 +7,9 @@ import { MusicProvider } from "../context/MusicContext";
 import Search from "../modules/Search/Search";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+import { useSelector } from "react-redux";
 export default function Root() {
+  const user = useSelector((state) => state.auth.login.currentUser);
   const ref = useRef(null);
   const [text,setText] = useState("");
   const [isSearch,setIsSearch] = useState(false)
@@ -19,6 +21,7 @@ export default function Root() {
     setIsSearch(false);
     ref.current.value = '';
   }
+  console.log(user);
   return (
     <div className="App">
       <MusicProvider>
@@ -67,10 +70,15 @@ export default function Root() {
             <div className="sidebar-text">
               <Link className="Link" to={`artists`}>Artists</Link>
             </div>
-
-            <div className="sidebar-text">
+            {
+              user?.role == "ADMIN" ? (<>
+              <div className="sidebar-text">
               <Link className="Link" to={`admin/page`}>Admin</Link>
             </div>
+              </>):(<></>)
+            }
+            
+
           </div>
 
           

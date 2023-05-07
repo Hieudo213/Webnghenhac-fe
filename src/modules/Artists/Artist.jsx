@@ -31,7 +31,7 @@ export default function Artist(){
       <div className='header'>
                 <div className='header_title'>
                     <h1 className='header_title_text'>
-                        Artists in process
+                    In Progress Artists 
                     </h1>
                 </div>
 

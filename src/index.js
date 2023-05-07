@@ -38,6 +38,7 @@ import PlaylistItemPage from './admin/Playlist/PlaylistItemPage';
 import SongItemPage from './admin/Song/SongItemPage';
 import CategoryPage from './admin/Category/CategoryPage';
 import CategoryItemPage from './admin/Category/CategoryItemPage';
+import UserList from './admin/User/UserList';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -165,6 +166,10 @@ const router = createBrowserRouter([
       {
         path: "/admin/update/category/:id",
         element: <CategoryItemPage/>
+      },
+      {
+        path: "/admin/user-list",
+        element: <UserList/>
       },
     ],
   },

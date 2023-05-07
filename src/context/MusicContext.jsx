@@ -29,11 +29,13 @@ export const MusicProvider = ({ children }) => {
   }
   const handleNext = () => {
     if (!isPlay) {
-      setSource((source) => source + 1);
+      setSongId((songId) => songId + 1);
+      setSource(s => s + 1);
       setPlay(true);
       audioRef.current.play();
     }
-    setSource((source) => source + 1);
+    setSongId((songId) => songId + 1);
+    setSource(s => s + 1);
 
   };
   const handlePrev = () => {
@@ -53,7 +55,7 @@ export const MusicProvider = ({ children }) => {
       }
       // chuyen bai
       if (curSong.id !== song.id) {
-        setSongId(song.single.id);
+        setSongId(song.id);
         setCurSong(song);
         setSong(song);
         setSource(song.music.id);
@@ -71,7 +73,7 @@ export const MusicProvider = ({ children }) => {
     else {
       // Truong hop chua co bai nao duoc bat
       if (curSong === null) {
-        setSongId(song.single.id);
+        setSongId(song.id);
         setCurSong(song);
         setSong(song);
         setSource(song.music.id);
@@ -93,7 +95,7 @@ export const MusicProvider = ({ children }) => {
 
       // Truong hop dung lai ma muon chuyen bai
       if (curSong.id !== song.id) {
-        setSongId(song.single.id);
+        setSongId(song.id);
         setCurSong(song);
         setSource(song.music.id);
         setSong(song);

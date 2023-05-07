@@ -34,7 +34,7 @@ export default function Song(){
        <div className='header'>
                 <div className='header_title'>
                     <h1 className='header_title_text'>
-                       In process Songs
+                       In progress Songs
                     </h1>
                 </div>
 
@@ -64,7 +64,7 @@ export default function Song(){
             <div className='header'>
                 <div className='header_title'>
                     <h1 className='header_title_text'>
-                      Done Songs
+                      Songs are not activated
                     </h1>
                 </div>
 
